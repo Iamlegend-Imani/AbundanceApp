@@ -1,6 +1,7 @@
 # Abundance MVP
 
 A front-end prototype for a personalized search engine that helps people discover legitimate free, sponsored, funded, donated, and zero-cost opportunities.
+https://theabundanceapp.base44.app/
 
 ## Core product loop
 
