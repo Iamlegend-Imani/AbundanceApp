@@ -1,100 +1,97 @@
-# AbundanceApp
-A personalized discovery engine for free, funded, sponsored, donated, and zero-cost opportunities, helping people find resources the world is already offering.
+# Abundance MVP
 
-# Abundance
+A front-end prototype for a personalized search engine that helps people discover legitimate free, sponsored, funded, donated, and zero-cost opportunities.
 
-**The world is more abundant than it looks.**
+## Core product loop
 
-Abundance is a personalized discovery and intelligence engine for legitimate free, fully funded, sponsored, donated, subsidized, and zero-cost opportunities.
+1. User creates a lightweight matching profile.
+2. Abundance aggregates verified opportunities from trusted sources.
+3. Matching ranks opportunities by eligibility, estimated value, urgency, and application effort.
+4. "I Want This" reverse-searches the funding ecosystem around a desired outcome.
+5. Users save opportunities into an application pipeline and track claimed value.
 
-The core idea is simple:
+## Current prototype
 
-> Someone has already created resources for something you want to do. Abundance helps you find them.
+This prototype is intentionally front-end only. It includes:
+- For You dashboard
+- Estimated matched value
+- Opportunity cards
+- Explore filters
+- "I Want This" reverse-search experience
+- Applications pipeline
+- Profile controls
+- Demo opportunity data and interactions
 
-## What Abundance Does
+Open `index.html` in any modern browser.
 
-Abundance helps users:
+## Production architecture
 
-- Discover high-value free and funded opportunities
-- Search scholarships, grants, fellowships, sponsorships, public programs, startup credits, food resources, clothing programs, travel funding, wellness opportunities, and more
-- Tell the system what they want through the **I Want This** feature
-- Identify possible funding paths
-- Save and track opportunities
-- Manage applications
-- Measure the value of resources they successfully access
-- Use **Ask Anyway** when no formal funding program exists
+Recommended next build:
+- Frontend: Next.js + TypeScript
+- Database/Auth: Supabase (Postgres + Auth)
+- Search/Matching: Postgres full-text first; embeddings later
+- Data ingestion: scheduled workers + official APIs/RSS + structured web extraction
+- AI layer: LLM used for normalization, eligibility explanation, and application assistance
+- Verification: source URL, source type, last verified date, expiration logic, human/admin review for high-value listings
+- Notifications: email/push for high-fit opportunities and deadlines
 
-## Core Framework
+## Suggested data model
 
-Abundance explores four paths:
+### users
+- id
+- location
+- search_radius
+- travel_flexibility
+- interests
+- career_goals
+- education_goals
+- optional_eligibility_flags
+- privacy_preferences
 
-1. **Find it free**
-2. **Find who already funds it**
-3. **Ask**
-4. **Create an exchange**
+### opportunities
+- id
+- title
+- provider
+- category
+- description
+- source_url
+- source_type
+- geography
+- eligibility_text
+- deadline
+- estimated_value_min
+- estimated_value_max
+- truly_free
+- last_verified_at
+- status
 
-## Prototype Features
+### matches
+- user_id
+- opportunity_id
+- fit_score
+- eligibility_confidence
+- value_score
+- urgency_score
+- effort_score
+- why_match
 
-- Personalized For You dashboard
-- Opportunity discovery
-- Search and filtering
-- I Want This reverse-search experience
-- Ask Anyway sponsorship strategy
-- Application tracking
-- Abundance Score
-- My Abundance value tracking
-- Saved opportunities
-- Profile preferences
-- LocalStorage persistence
-- Responsive mobile and desktop experience
+### applications
+- user_id
+- opportunity_id
+- status
+- next_action
+- deadline
+- notes
+- claimed_value
 
-## Tech Stack
+## Important trust principle
 
-Current prototype:
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- LocalStorage
-- Mock opportunity data
-
-Planned:
-
-- Supabase
-- Authentication
-- Real opportunity ingestion
-- Verified source database
-- AI-powered matching
-- Search agents
-- Notifications
-- Personalized opportunity radar
-
-## Trust & Verification
-
-Abundance should never imply guaranteed eligibility or guaranteed funding.
-
-Opportunities should clearly distinguish between:
-
+Never describe an opportunity as "free" unless its terms are verified. Clearly separate:
 - Truly free
 - Fully funded if selected
-- Eligibility-based
-- Sponsored
-- Subsidized
+- Income/eligibility based
+- Partially subsidized
 - Reimbursement-based
-- Unverified opportunities
+- Free trial / promotional (generally exclude)
 
-Official program terms should always be confirmed with the original provider.
-
-## Status
-
-This repository currently contains an early product prototype.
-
-The immediate goal is to validate:
-
-**Declare → Discover → Match → Apply → Claim → Measure**
-
-## Vision
-
-Abundance is not intended to be a coupon site or traditional benefits directory.
-
-The larger vision is to build an intelligent resource-access layer that helps people discover the capital, programs, access, sponsorship, generosity, and unused capacity that already exists around them.
+The brand should feel expansive and empowering, not like a benefits directory.
