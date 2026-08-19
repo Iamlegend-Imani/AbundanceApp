@@ -3,6 +3,17 @@
 A front-end prototype for a personalized search engine that helps people discover legitimate free, sponsored, funded, donated, and zero-cost opportunities.
 https://theabundanceapp.base44.app/
 
+## Related Work: From Signal to Safeguard
+
+AbundanceApp and From Signal to Safeguard address different problems but share a common systems-building approach.
+
+AbundanceApp explores how legitimate opportunities can be discovered, verified, matched, and maintained using source provenance, eligibility criteria, verification dates, expiration logic, and human review.
+
+[From Signal to Safeguard](https://from-signal-to-safeguard.imani-kirika116.chatgpt.site/) applies that same evidence-centered discipline to AI-cyber governance. The public research prototype separates observations from interpretation, makes uncertainty visible, routes decisions to named human owners, suggests safeguards, and generates an auditable decision record using fictional scenarios only.
+
+Together, these projects demonstrate my broader practice: building transparent systems that help people act on consequential information without automating away human judgment.
+
+
 ## Core product loop
 
 1. User creates a lightweight matching profile.
