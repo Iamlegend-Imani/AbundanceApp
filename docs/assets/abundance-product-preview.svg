@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abundance opportunity radar interface preview</title>
+  <desc id="desc">A dark green product interface showing the Abundance navigation, opportunity universe headline, pathway metrics, and illustrative opportunity cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07110d"/>
+      <stop offset="1" stop-color="#0d1d15"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173c2a"/>
+      <stop offset="1" stop-color="#0c1d14"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <circle cx="980" cy="135" r="250" fill="none" stroke="#e7c879" stroke-opacity="0.06"/>
+  <circle cx="410" cy="-80" r="220" fill="none" stroke="#9fe2bd" stroke-opacity="0.07"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="32" y="22" width="42" height="42" rx="14" fill="#225b42" stroke="#9fe2bd" stroke-opacity="0.25"/>
+    <text x="53" y="51" fill="#f4f0e5" font-family="Georgia, serif" font-size="25" text-anchor="middle">A</text>
+    <text x="87" y="42" fill="#f4f0e5" font-family="Georgia, serif" font-size="21">Abundance</text>
+    <text x="87" y="58" fill="#929c93" font-size="9" letter-spacing="1.4">OPPORTUNITY INTELLIGENCE</text>
+    <rect x="975" y="27" width="155" height="31" rx="16" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.15"/>
+    <text x="1053" y="46" fill="#c8c7bb" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="1">FRONT-END PROTOTYPE</text>
+    <line x1="32" y1="82" x2="1168" y2="82" stroke="#e6e9d3" stroke-opacity="0.11"/>
+
+    <g transform="translate(32 112)">
+      <rect width="180" height="42" rx="12" fill="#9fe2bd" fill-opacity="0.11"/>
+      <text x="18" y="26" fill="#9fe2bd" font-size="12" font-weight="700">✦  For you</text>
+      <text x="18" y="73" fill="#929c93" font-size="12">⌕  Explore</text>
+      <text x="18" y="115" fill="#929c93" font-size="12">↗  I want this</text>
+      <text x="18" y="157" fill="#929c93" font-size="12">✓  My pipeline</text>
+      <text x="18" y="199" fill="#929c93" font-size="12">◇  Trust model</text>
+
+      <rect y="240" width="180" height="154" rx="18" fill="#e7c879" fill-opacity="0.07" stroke="#e7c879" stroke-opacity="0.14"/>
+      <text x="16" y="266" fill="#e7c879" font-size="9" font-weight="700" letter-spacing="1.3">CORE BELIEF</text>
+      <text x="16" y="292" fill="#c8c7bb" font-family="Georgia, serif" font-size="13">
+        <tspan x="16" dy="0">Before you spend your</tspan>
+        <tspan x="16" dy="20">own resources, ask</tspan>
+        <tspan x="16" dy="20">whether legitimate access</tspan>
+        <tspan x="16" dy="20">already exists.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(238 106)">
+      <rect width="930" height="42" rx="12" fill="#e7c879" fill-opacity="0.08" stroke="#e7c879" stroke-opacity="0.16"/>
+      <circle cx="18" cy="21" r="4" fill="#e7c879"/>
+      <text x="31" y="18" fill="#e7c879" font-size="10" font-weight="700">Demonstration mode</text>
+      <text x="31" y="32" fill="#c8c7bb" font-size="9">Fictional composite pathways used to test the workflow. These are not live offers.</text>
+
+      <rect y="56" width="930" height="282" rx="27" fill="url(#hero)" stroke="#e6e9d3" stroke-opacity="0.11" filter="url(#shadow)"/>
+      <text x="38" y="101" fill="#9fe2bd" font-size="9" font-weight="700" letter-spacing="1.5">YOUR OPPORTUNITY UNIVERSE</text>
+      <text x="38" y="147" fill="#f4f0e5" font-family="Georgia, serif" font-size="38">
+        <tspan x="38" dy="0">The world is offering more</tspan>
+        <tspan x="38" dy="43">than most people can see.</tspan>
+      </text>
+      <text x="38" y="245" fill="#c8c7bb" font-size="12">
+        <tspan x="38" dy="0">Turn fragmented programs, funding pools, sponsored access, and</tspan>
+        <tspan x="38" dy="19">unused capacity into pathways people can understand and act on.</tspan>
+      </text>
+      <rect x="38" y="286" width="148" height="34" rx="11" fill="#9fe2bd"/>
+      <text x="112" y="307" fill="#102018" font-size="10" font-weight="700" text-anchor="middle">Tell us what you want</text>
+
+      <g transform="translate(688 82)">
+        <circle cx="112" cy="112" r="103" fill="none" stroke="#9fe2bd" stroke-opacity="0.16"/>
+        <circle cx="112" cy="112" r="72" fill="none" stroke="#e7c879" stroke-opacity="0.15"/>
+        <circle cx="112" cy="112" r="34" fill="#1f6a4c" stroke="#e7c879" stroke-opacity="0.23"/>
+        <text x="112" y="122" fill="#f4f0e5" font-family="Georgia, serif" font-size="31" text-anchor="middle">A</text>
+        <rect x="78" y="0" width="68" height="23" rx="12" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.13"/>
+        <text x="112" y="15" fill="#c8c7bb" font-size="8" font-weight="700" text-anchor="middle">FUNDED</text>
+        <rect x="170" y="101" width="80" height="23" rx="12" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.13"/>
+        <text x="210" y="116" fill="#c8c7bb" font-size="8" font-weight="700" text-anchor="middle">SPONSORED</text>
+        <rect x="70" y="202" width="84" height="23" rx="12" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.13"/>
+        <text x="112" y="217" fill="#c8c7bb" font-size="8" font-weight="700" text-anchor="middle">SUBSIDIZED</text>
+        <rect x="-25" y="101" width="70" height="23" rx="12" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.13"/>
+        <text x="10" y="116" fill="#c8c7bb" font-size="8" font-weight="700" text-anchor="middle">DONATED</text>
+      </g>
+
+      <g transform="translate(0 350)">
+        <rect width="299" height="92" rx="17" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.1"/>
+        <text x="18" y="25" fill="#9fe2bd" font-size="8" font-weight="700" letter-spacing="1">ILLUSTRATIVE VALUE</text>
+        <text x="18" y="60" fill="#f4f0e5" font-family="Georgia, serif" font-size="28">$40,900</text>
+        <text x="18" y="78" fill="#929c93" font-size="8">Scenario estimate, not guaranteed value</text>
+
+        <rect x="315" width="299" height="92" rx="17" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.1"/>
+        <text x="333" y="25" fill="#9fe2bd" font-size="8" font-weight="700" letter-spacing="1">PATHWAYS MAPPED</text>
+        <text x="333" y="60" fill="#f4f0e5" font-family="Georgia, serif" font-size="28">8</text>
+        <text x="333" y="78" fill="#929c93" font-size="8">Across funding and access types</text>
+
+        <rect x="630" width="300" height="92" rx="17" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.1"/>
+        <text x="648" y="25" fill="#9fe2bd" font-size="8" font-weight="700" letter-spacing="1">SAVED LOCALLY</text>
+        <text x="648" y="60" fill="#f4f0e5" font-family="Georgia, serif" font-size="28">0</text>
+        <text x="648" y="78" fill="#929c93" font-size="8">Stored only in this browser</text>
+      </g>
+
+      <text x="0" y="474" fill="#9fe2bd" font-size="8" font-weight="700" letter-spacing="1.4">ILLUSTRATIVE MATCHES</text>
+      <text x="0" y="501" fill="#f4f0e5" font-family="Georgia, serif" font-size="23">Pathways matched to an example profile</text>
+
+      <g transform="translate(0 519)">
+        <rect width="457" height="126" rx="17" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.1"/>
+        <rect x="16" y="15" width="88" height="20" rx="10" fill="#9fe2bd" fill-opacity="0.11"/>
+        <text x="60" y="28" fill="#9fe2bd" font-size="7" font-weight="700" text-anchor="middle">ELIGIBILITY BASED</text>
+        <text x="16" y="61" fill="#f4f0e5" font-family="Georgia, serif" font-size="17">Workforce-funded technical learning</text>
+        <text x="16" y="84" fill="#c8c7bb" font-size="9">Illustrative pathway · Education · State or local</text>
+        <rect x="16" y="103" width="425" height="3" rx="2" fill="#e6e9d3" fill-opacity="0.1"/>
+        <rect x="16" y="103" width="400" height="3" rx="2" fill="#9fe2bd"/>
+
+        <rect x="473" width="457" height="126" rx="17" fill="#102017" stroke="#e6e9d3" stroke-opacity="0.1"/>
+        <rect x="489" y="15" width="91" height="20" rx="10" fill="#9fe2bd" fill-opacity="0.11"/>
+        <text x="534" y="28" fill="#9fe2bd" font-size="7" font-weight="700" text-anchor="middle">CORPORATE CREDITS</text>
+        <text x="489" y="61" fill="#f4f0e5" font-family="Georgia, serif" font-size="17">Startup infrastructure and software credits</text>
+        <text x="489" y="84" fill="#c8c7bb" font-size="9">Illustrative pathway · Business · Global or regional</text>
+        <rect x="489" y="103" width="425" height="3" rx="2" fill="#e6e9d3" fill-opacity="0.1"/>
+        <rect x="489" y="103" width="378" height="3" rx="2" fill="#9fe2bd"/>
+      </g>
+    </g>
+  </g>
+</svg>
