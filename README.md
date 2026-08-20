@@ -9,7 +9,7 @@ AbundanceApp and From Signal to Safeguard address different problems but share a
 
 AbundanceApp explores how legitimate opportunities can be discovered, verified, matched, and maintained using source provenance, eligibility criteria, verification dates, expiration logic, and human review.
 
-[From Signal to Safeguard](https://from-signal-to-safeguard.imani-kirika116.chatgpt.site/) applies that same evidence-centered discipline to AI-cyber governance. The public research prototype separates observations from interpretation, makes uncertainty visible, routes decisions to named human owners, suggests safeguards, and generates an auditable decision record using fictional scenarios only.
+[From Signal to Safeguard](https://github.com/Iamlegend-Imani/FromSignaltoSafeguard/blob/main/README.md) applies that same evidence-centered discipline to AI-cyber governance. The public research prototype separates observations from interpretation, makes uncertainty visible, routes decisions to named human owners, suggests safeguards, and generates an auditable decision record using fictional scenarios only.
 
 Together, these projects demonstrate my broader practice: building transparent systems that help people act on consequential information without automating away human judgment.
 
